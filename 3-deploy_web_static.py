@@ -9,7 +9,7 @@ execute: fab -f 3-deploy_web_static.py deploy -i ~/.ssh/id_rsa -u ubuntu
 from fabric.api import env, local, put, run
 from datetime import datetime
 from os.path import exists, isdir
-env.hosts = ["100.26.220.120", "100.25.132.77"]
+env.hosts = ['100.26.220.120', '100.25.132.77']
 
 def do_pack():
     """generates a tgz archive"""
