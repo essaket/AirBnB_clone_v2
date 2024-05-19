@@ -8,6 +8,7 @@ Routes:
 from models import storage
 from flask import Flask
 from flask import render_template
+import 7-states_list.sql
 
 app = Flask(__name__)
 
